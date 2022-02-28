@@ -27,3 +27,9 @@ const blog = (
 );
 // The first opening tag and the final closing tag of a 
 // JSX expression must belong to the same JSX element
+
+// RENDERING
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(<h1>Hello world</h1>, document.getElementById('app'));
