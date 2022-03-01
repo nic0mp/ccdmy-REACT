@@ -40,3 +40,20 @@ import ReactDOM from 'react-dom';
 
 // Write code here:
 ReactDOM.render(<h1>Render me!</h1>, document.getElementById('app'));
+
+// Passing a Variable to ReactDOM.render()
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const myList = (
+  <ul>
+    <li>list</li>
+    <li>list</li>
+    <li>and list</li>
+  </ul>
+);
+
+ReactDOM.render (
+  myList,
+  document.getElementById('app')
+);
