@@ -199,3 +199,10 @@ ReactDOM.render(
   <ul>{peopleLis}</ul>,
   document.getElementById('app')
 )
+
+// React.createElement
+const greatestDivEver = React.createElement(
+  "div",
+  null,
+  "i am div"
+);
