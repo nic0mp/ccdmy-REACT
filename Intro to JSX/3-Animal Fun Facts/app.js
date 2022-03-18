@@ -10,6 +10,8 @@ const background = <img
 />;
 
 const images =[];
+
+
 for (const animal in animals){
   images.push(
     <img 
